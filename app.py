@@ -13,7 +13,7 @@ with st.form("promt_form"):
     # 사용자가 입력한 prompt를 받는 text_input을 생성합니다.
     user_promt_input = st.text_input("Prompt")
     # 이미지 사이즈를 선택하는 selectbox를 생성합니다.
-    size = st.selectbox("Size",["512x512", "1024x1024", "1080x1080"])
+    size = st.selectbox("Size",["512x512", "1024x1024", "1080x1024"])
     # form을 제출하는 버튼을 생성합니다.
     submit = st.form_submit_button("Gogogo")
 
